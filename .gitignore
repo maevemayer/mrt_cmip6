@@ -1,0 +1,8 @@
+*.nc
+/logs/*
+/tmp/
+*swp
+/plots/
+*.pdf
+*.png
+.DS_Store
