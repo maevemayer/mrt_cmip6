@@ -1,4 +1,4 @@
-name:lagranto
+name: lagranto
 channels:
   - conda-forge
 dependencies:
@@ -188,6 +188,8 @@ dependencies:
   - zlib=1.2.13=h4ab18f5_6
   - zstandard=0.18.0=py37h540881e_0
   - zstd=1.5.6=ha6fb4c9_0
+  - netcdf4
+  - pip
   - pip:
       - alabaster==0.7.13
       - attrs==24.2.0
@@ -205,7 +207,6 @@ dependencies:
       - imagesize==1.4.1
       - importlib-metadata==6.7.0
       - iniconfig==2.0.0
-      - netcdf4==1.6.5
       - path==16.6.0
       - path-py==12.5.0
       - pluggy==1.2.0
