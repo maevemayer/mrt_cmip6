@@ -2,8 +2,8 @@
 
 ##### create environment
 - first install miniconda if not existing <br>
-`wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
-chmod +x Miniforge3-Linux-x86_64.sh` <br>
+`wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh` <br>
+`chmod +x Miniforge3-Linux-x86_64.sh` <br>
 `./Miniforge3-Linux-x86_64.sh` <br>
 - to make sure that all dependencies are running as intended, run <br>
 `conda env create -f environment.yml` <br>
